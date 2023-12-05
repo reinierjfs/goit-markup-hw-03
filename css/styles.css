@@ -313,7 +313,14 @@ img {
 /* footer */
 .footer {
   background-color: var(--navy-blue);
+  padding: 100px 0;
 }
+
+.footer-info {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-accent {
   color: var(--cloud);
 }
