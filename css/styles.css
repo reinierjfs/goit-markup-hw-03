@@ -276,10 +276,26 @@ img {
 /* section 4 index */
 .section-four {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 
-.service-item {
+.team-header {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list > .team-item {
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0, 0, 4px 4px;
+}
+
+.team-item {
   background-color: var(--white);
+  /* border-radius: 0, 0, 4px 4px; */
 }
 
 /* footer */
