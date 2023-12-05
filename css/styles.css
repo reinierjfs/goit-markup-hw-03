@@ -19,6 +19,10 @@ body {
   background-color: var(--white);
 }
 
+.img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -39,7 +43,6 @@ body {
 .nav > .list {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
 }
 
 .address > .list {
@@ -198,6 +201,36 @@ body {
 }
 
 /* section 2 index */
+
+.section-two {
+  padding: 120px 0;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.info > .features {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.features {
+  margin-bottom: 8px;
+}
 
 .features-title {
   font-weight: 500;
