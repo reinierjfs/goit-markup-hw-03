@@ -211,7 +211,7 @@ img {
   gap: 24px;
 }
 
-.features-list > .info {
+.features-list > .features-info {
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -250,13 +250,27 @@ img {
 
 /* section 3 index */
 
-.service-list {
+.section-three {
+  padding-bottom: 120px;
+}
+
+.service-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+
+.service-list {
+  display: flex;
+  gap: 24px;
+}
+
+.service-list > .features-info {
+  width: calc((100% - 3 * 16px) / 3);
 }
 
 /* section 4 index */
