@@ -211,6 +211,10 @@ img {
   gap: 24px;
 }
 
+.features-list > .info {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -223,10 +227,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/* .info > .features {
-  width: calc((100% - 3 * 24px) / 4);
-} */
 
 .features {
   margin-bottom: 8px;
