@@ -19,7 +19,7 @@ body {
   background-color: var(--white);
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -224,12 +224,13 @@ body {
   overflow: hidden;
 }
 
-.info > .features {
-  flex-basis: calc((100% - 72px) / 4);
-}
+/* .info > .features {
+  width: calc((100% - 3 * 24px) / 4);
+} */
 
 .features {
   margin-bottom: 8px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-title {
